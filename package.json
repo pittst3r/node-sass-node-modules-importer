@@ -1,6 +1,6 @@
 {
   "name": "node-sass-node-modules-importer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A node-sass custom importer which turns ~ into absolute paths to the nearest parent node_modules directory.",
   "repository": "https://github.com/pittst3r/node-sass-node-modules-importer",
   "main": "index.js",
