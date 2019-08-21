@@ -15,7 +15,6 @@ function resolve(targetUrl, source) {
   const parts = path.parse(filePath);
   const partialPath = path.join(parts.dir, '_' + parts.name);
   if (fs.existsSync(partialPath + '.scss')) {
-    console.log(partialPath);
     return partialPath;
   }
 
